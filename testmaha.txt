@@ -4,3 +4,4 @@ adding an extra line
 another line
 5th line
 6th line
+Now there is a 7th
