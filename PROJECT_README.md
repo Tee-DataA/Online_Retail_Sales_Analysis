@@ -10,32 +10,13 @@
 
 [insert dataset info here]
 
-This repository contains ______ CSV files:
-
-**1. online_retail_sales_cleaned.csv (in progress)**
-Description: ______
-Columns:1,2,3,4,5.
-
-Purpose:
-
-**2. revenue_by_year/month/day/hour/customer .csv's**
-Description: Revenue data broken down into multiple time intervals & unique customers for 10% of dataset.
-Columns: Year, Month, Day, Hour, Customer ID, Revenue*
- *Revenue generated per time/customer.
-
-Purpose: Enables detailed analysis of revenue trends based on time and customer segmentation.
-
-3. **global_revenue.csv**
-Description: ______
-Columns:1,2,3,4,5.
-
-Purpose:
-
-4. **global_rev_per_year** & **global_rev_per_month**
-
-## Business Requirements
-* Describe your business requirements
-
+### This project contains the following CSV files:
+#### 1. revenue_by_year.csv - contains revenue aggregated by year
+####  2. revenue_by_month.csv - contains revenue aggregated by month
+#### 3. revenue_by_day.csv - contains revenue aggregated by day
+#### 4. revenue_by_hour.csv - contains revenue aggregated by hour
+#### 5. revenue_per_customer.csv - contains revenue per customer
+#### 6. UK_online_retail_final.csv - contains the final cleaned, categorised, and price-binned dataset
 
 ## Hypothesis and how to validate?
 * List here your project hypothesis(es) and how you envision validating it (them) 
