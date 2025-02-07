@@ -8,6 +8,30 @@
 ## Dataset Content
 * Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
 
+[insert dataset info here]
+
+This repository contains ______ CSV files:
+
+**1. online_retail_sales_cleaned.csv (in progress)**
+Description: ______
+Columns:1,2,3,4,5.
+
+Purpose:
+
+**2. revenue_by_year/month/day/hour/customer .csv's**
+Description: Revenue data broken down into multiple time intervals & unique customers for 10% of dataset.
+Columns: Year, Month, Day, Hour, Customer ID, Revenue*
+ *Revenue generated per time/customer.
+
+Purpose: Enables detailed analysis of revenue trends based on time and customer segmentation.
+
+3. **global_revenue.csv**
+Description: ______
+Columns:1,2,3,4,5.
+
+Purpose:
+
+4. **global_rev_per_year** & **global_rev_per_month**
 
 ## Business Requirements
 * Describe your business requirements
