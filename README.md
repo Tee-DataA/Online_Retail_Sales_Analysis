@@ -38,12 +38,112 @@ The "Online Retail Transaction" dataset was selected for its coverage of custome
     Analyse sales over time, identify peaks, and use time series analysis to detect seasonality.
 
 ## Project Plan
-* Outline the high-level steps taken for the analysis.
-* How was the data managed throughout the collection, processing, analysis and interpretation steps?
-* Why did you choose the research methodologies you used?
+
+### High-Level Steps for Analysis
+
+1. **Data Collection**:
+   - Gather the "Online Retail Transaction" dataset from the provided source.
+   - Ensure the dataset includes all necessary attributes such as product details, purchase quantities, transaction timestamps, unit prices, unique customer identifiers, and customer locations.
+
+2. **Data Cleaning and Preprocessing**:
+   - Handle missing values by either filling them with appropriate values or removing the affected rows.
+   - Convert data types as needed, such as converting `InvoiceDate` to datetime format.
+   - Remove any duplicate entries to ensure data integrity.
+   - Create new columns if necessary, such as calculating `Revenue` by multiplying `Quantity` and `UnitPrice`.
+
+3. **Exploratory Data Analysis (EDA)**:
+   - Perform initial data exploration to understand the distribution and relationships within the data.
+   - Generate summary statistics and visualizations to identify trends and patterns.
+   - Use visualizations such as histograms, bar charts, and scatter plots to gain insights into the data.
+
+4. **Hypothesis Testing and Validation**:
+   - Formulate hypotheses based on business questions, such as identifying best-selling products, analyzing revenue distribution by country, and understanding customer purchasing behavior.
+   - Validate hypotheses using appropriate statistical methods and visualizations.
+   - Apply Pareto analysis (80/20 rule) to identify key products contributing to the majority of revenue.
+
+5. **Data Visualization**:
+   - Create visualizations to communicate insights effectively.
+   - Use bar charts, line plots, pie charts, and other relevant visualizations to present findings.
+   - Design a dashboard to display key metrics and visualizations for easy access and interpretation.
+
+6. **Reporting and Documentation**:
+   - Document the entire analysis process, including data collection, cleaning, analysis, and visualization steps.
+   - Prepare a comprehensive report summarizing the findings and insights.
+   - Include recommendations based on the analysis to inform business decisions.
+
+### Data Management
+
+- **Collection**: The dataset was collected from a reliable source and ensured to cover all necessary attributes for the analysis.
+- **Processing**: Data was cleaned and preprocessed to handle missing values, convert data types, and remove duplicates.
+- **Analysis**: Data was analyzed using various statistical methods and visualizations to extract meaningful insights.
+- **Interpretation**: The results were interpreted to provide actionable recommendations for the business.
+
+### Research Methodologies
+
+- **Exploratory Data Analysis (EDA)**: Used to understand the data distribution and identify initial trends and patterns.
+- **Hypothesis Testing**: Applied to validate business hypotheses and ensure data-driven decision-making.
+- **Pareto Analysis**: Used to identify key products contributing to the majority of revenue.
+- **Time Series Analysis**: Applied to detect seasonal trends and patterns in sales data.
+
+### Rationale for Methodologies
+
+- **EDA**: Provides a comprehensive understanding of the data and helps identify potential issues and opportunities.
+- **Hypothesis Testing**: Ensures that business decisions are based on statistically significant findings.
+- **Pareto Analysis**: Helps focus efforts on the most impactful products and customers.
+- **Time Series Analysis**: Identifies seasonal trends, enabling better planning and forecasting.
+
+By following this project plan, the analysis was structured and systematic, ensuring that all key aspects of the data were thoroughly examined and that the findings were reliable and actionable.
+
+
 
 ## The rationale to map the business requirements to the Data Visualisations
-* List your business requirements and a rationale to map them to the Data Visualisations
+## The Rationale to Map the Business Requirements to the Data Visualisations
+
+### Business Requirements
+
+1. **Identify Best-Selling Products**:
+   - **Rationale**: Understanding which products generate the most revenue helps in inventory management, marketing strategies, and identifying potential areas for product development.
+   - **Data Visualisation**: Bar chart showing the top 10 products by revenue.
+
+2. **Analyze Revenue Distribution by Country**:
+   - **Rationale**: Identifying which countries contribute the most to revenue helps in targeting marketing efforts and understanding geographical market performance.
+   - **Data Visualisation**: Pie chart showing the sales distribution by country.
+
+3. **Track Monthly Sales Trends**:
+   - **Rationale**: Monitoring sales trends over time helps in identifying seasonal patterns, planning inventory, and setting sales targets.
+   - **Data Visualisation**: Line plot showing monthly revenue trends.
+
+4. **Evaluate Customer Segments**:
+   - **Rationale**: Understanding the revenue generated by repeat vs. new customers helps in customer retention strategies and marketing efforts.
+   - **Data Visualisation**: Bar chart comparing revenue from repeat customers vs. new customers.
+
+5. **Monitor Operational Efficiency**:
+   - **Rationale**: Tracking order fulfillment times and return rates helps in improving operational processes and customer satisfaction.
+   - **Data Visualisation**: Histogram showing order fulfillment times and bar chart showing return rates.
+
+### Mapping to Data Visualisations
+
+1. **Best-Selling Products**:
+   - **Visualisation**: Bar chart of top 10 products by revenue.
+   - **Purpose**: Quickly identify which products are driving the most sales.
+
+2. **Revenue Distribution by Country**:
+   - **Visualisation**: Pie chart of sales distribution by country.
+   - **Purpose**: Visualize the geographical distribution of revenue to identify key markets.
+
+3. **Monthly Sales Trends**:
+   - **Visualisation**: Line plot of monthly revenue.
+   - **Purpose**: Track sales performance over time and identify seasonal trends.
+
+4. **Customer Segments**:
+   - **Visualisation**: Bar chart of revenue from repeat vs. new customers.
+   - **Purpose**: Compare the contribution of different customer segments to overall revenue.
+
+5. **Operational Efficiency**:
+   - **Visualisation**: Histogram of order fulfillment times and bar chart of return rates.
+   - **Purpose**: Monitor and improve operational processes to enhance customer satisfaction.
+
+By mapping these business requirements to specific data visualisations, the sales manager can gain actionable insights and make data-driven decisions to improve overall business performance.
 
 ## Analysis techniques used
 * List the data analysis methods used and explain limitations or alternative approaches.
