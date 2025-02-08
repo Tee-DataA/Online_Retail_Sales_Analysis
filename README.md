@@ -6,9 +6,15 @@
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
+The "Online Retail Transaction" dataset was selected for its coverage of customer transactions on an online retail platform. This dataset includes key attributes such as product details, purchase quantities, transaction timestamps, unit prices, unique customer identifiers, and customer locations.
 
-[insert dataset info here]
+- StockCode: A code used to identify the product that was purchased
+- Description: A brief description of the product that was purchased
+- Quantity: The quantity of the product that was purchased
+- InvoiceDate: The date and time that the purchase was made
+- UnitPrice: The price of one unit of the product that was purchased
+- CustomerID: The unique identifier for the customer who made the purchase
+- Country: The country where the customer who made the purchase is located
 
 ### This project contains the following CSV files:
 #### 1. revenue_by_year.csv - contains revenue aggregated by year
@@ -19,7 +25,17 @@
 #### 6. UK_online_retail_final.csv - contains the final cleaned, categorised, and price-binned dataset
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+1. Most revenue comes from a few best-selling products.
+    Analyse product-wise revenue distribution and apply Pareto analysis (80/20 rule).
+
+2. Certain countries contribute disproportionately to revenue.
+    Aggregate sales by country, calculate revenue share, and visualise regional differences.
+
+3. Repeat customers generate a significant portion of revenue.
+    Segment customers, compare revenue from repeat vs. new buyers, and conduct cohort analysis.
+
+4. Sales follow seasonal trends.
+    Analyse sales over time, identify peaks, and use time series analysis to detect seasonality.
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
