@@ -117,7 +117,7 @@ The project includes several visualizations to illustrate key findings:
 - Matplotlib and Seaborn for data visualization
 - Jupyter Notebook for interactive development and analysis
 
-## Project Structure
+## Project Structure And Files
 
 - `Online_Retail_Sales_Analysis.ipynb`: Jupyter notebook containing the main analysis
 - `revenue_by_year.csv`: Aggregated revenue data by year
@@ -127,6 +127,7 @@ The project includes several visualizations to illustrate key findings:
 - `revenue_per_customer.csv`: Revenue data for each customer
 - `UK_online_retail_final.csv`: Final cleaned and processed dataset
 - 'Rough Tableau Retail Sales Dashboard.drawio'
+-  https://public.tableau.com/app/profile/julian.colling/viz/Online_Retail_Sales_Dashboard/GuidingtheUser?publish=yes
 
 ## How to Run
 
